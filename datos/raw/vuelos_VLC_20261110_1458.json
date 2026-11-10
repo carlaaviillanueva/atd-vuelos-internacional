@@ -1,0 +1,5645 @@
+{
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "count": 100,
+    "total": 417
+  },
+  "data": [
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2026-11-10T20:45:00+00:00",
+        "estimated": "2026-11-10T20:45:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:42:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "ASL Airlines Belgium",
+        "iata": "3V",
+        "icao": "TAY"
+      },
+      "flight": {
+        "number": "4912",
+        "iata": "3V4912",
+        "icao": "TAY4912",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T20:44:00+00:00",
+        "estimated": "2026-11-10T20:44:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:54:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "El Prat De Llobregat",
+        "timezone": "Europe/Madrid",
+        "iata": "BCN",
+        "icao": "LEBL",
+        "terminal": "T1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:40:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Swiftair",
+        "iata": "WT",
+        "icao": "SWT"
+      },
+      "flight": {
+        "number": "4912",
+        "iata": "WT4912",
+        "icao": "SWT4912",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4AC98A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "15",
+        "delay": 0,
+        "scheduled": "2026-11-10T20:35:00+00:00",
+        "estimated": "2026-11-10T20:35:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N617",
+        "scheduled": "2026-11-10T21:45:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Europa",
+        "iata": "UX",
+        "icao": "AEA"
+      },
+      "flight": {
+        "number": "4060",
+        "iata": "UX4060",
+        "icao": "AEA4060",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "15",
+        "delay": 0,
+        "scheduled": "2026-11-10T20:35:00+00:00",
+        "estimated": "2026-11-10T20:35:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N617",
+        "scheduled": "2026-11-10T21:45:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Etihad Airways",
+        "iata": "EY",
+        "icao": "ETD"
+      },
+      "flight": {
+        "number": "7520",
+        "iata": "EY7520",
+        "icao": "ETD7520",
+        "codeshared": {
+          "airline_name": "air europa",
+          "airline_iata": "ux",
+          "airline_icao": "aea",
+          "flight_number": "4060",
+          "flight_iata": "ux4060",
+          "flight_icao": "aea4060"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "15",
+        "delay": 0,
+        "scheduled": "2026-11-10T20:35:00+00:00",
+        "estimated": "2026-11-10T20:35:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N617",
+        "scheduled": "2026-11-10T21:45:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Aeromexico",
+        "iata": "AM",
+        "icao": "AMX"
+      },
+      "flight": {
+        "number": "6859",
+        "iata": "AM6859",
+        "icao": "AMX6859",
+        "codeshared": {
+          "airline_name": "air europa",
+          "airline_iata": "ux",
+          "airline_icao": "aea",
+          "flight_number": "4060",
+          "flight_iata": "ux4060",
+          "flight_icao": "aea4060"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "14",
+        "delay": 5,
+        "scheduled": "2026-11-10T20:30:00+00:00",
+        "estimated": "2026-11-10T20:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "San Pablo",
+        "timezone": "Europe/Madrid",
+        "iata": "SVQ",
+        "icao": "LEZL",
+        "terminal": null,
+        "gate": null,
+        "baggage": "2",
+        "scheduled": "2026-11-10T21:45:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "YW",
+        "icao": "ANE"
+      },
+      "flight": {
+        "number": "2392",
+        "iata": "YW2392",
+        "icao": "ANE2392",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "343650"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "14",
+        "delay": 5,
+        "scheduled": "2026-11-10T20:30:00+00:00",
+        "estimated": "2026-11-10T20:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "San Pablo",
+        "timezone": "Europe/Madrid",
+        "iata": "SVQ",
+        "icao": "LEZL",
+        "terminal": null,
+        "gate": null,
+        "baggage": "2",
+        "scheduled": "2026-11-10T21:45:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "5792",
+        "iata": "VY5792",
+        "icao": "VLG5792",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "2392",
+          "flight_iata": "yw2392",
+          "flight_icao": "ane2392"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "343650"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T20:25:00+00:00",
+        "estimated": "2026-11-10T20:25:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Vitoria",
+        "timezone": "Europe/Madrid",
+        "iata": "VIT",
+        "icao": "LEVT",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:23:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "DHL Air",
+        "iata": "QY",
+        "icao": "BCS"
+      },
+      "flight": {
+        "number": null,
+        "iata": "QY",
+        "icao": "BCS",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "440BC5"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T20:20:00+00:00",
+        "estimated": "2026-11-10T20:20:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:20:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "John Paul II Balice International",
+        "timezone": "Europe/Warsaw",
+        "iata": "KRK",
+        "icao": "EPKK",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T23:30:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Wizz Air",
+        "iata": "W6",
+        "icao": "WZZ"
+      },
+      "flight": {
+        "number": "2080",
+        "iata": "W62080",
+        "icao": "WZZ2080",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "471F71"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 2,
+        "scheduled": "2026-11-10T20:10:00+00:00",
+        "estimated": "2026-11-10T20:10:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:12:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Orly",
+        "timezone": "Europe/Paris",
+        "iata": "ORY",
+        "icao": "LFPO",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T22:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "8083",
+        "iata": "VY8083",
+        "icao": "VLG8083",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "348205"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 2,
+        "scheduled": "2026-11-10T20:10:00+00:00",
+        "estimated": "2026-11-10T20:10:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:12:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Orly",
+        "timezone": "Europe/Paris",
+        "iata": "ORY",
+        "icao": "LFPO",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T22:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "5929",
+        "iata": "IB5929",
+        "icao": "IBE5929",
+        "codeshared": {
+          "airline_name": "vueling",
+          "airline_iata": "vy",
+          "airline_icao": "vlg",
+          "flight_number": "8083",
+          "flight_iata": "vy8083",
+          "flight_icao": "vlg8083"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "348205"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 11,
+        "scheduled": "2026-11-10T20:00:00+00:00",
+        "estimated": "2026-11-10T20:00:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T20:11:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Vienna International",
+        "timezone": "Europe/Vienna",
+        "iata": "VIE",
+        "icao": "LOWW",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T22:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "airBaltic",
+        "iata": "BT",
+        "icao": "BTI"
+      },
+      "flight": {
+        "number": "7702",
+        "iata": "BT7702",
+        "icao": "BTI7702",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "502D7B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T19:40:00+00:00",
+        "estimated": "2026-11-10T19:40:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "411",
+        "iata": "BA411",
+        "icao": "BAW411",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "40123F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T19:40:00+00:00",
+        "estimated": "2026-11-10T19:40:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "3862",
+        "iata": "IB3862",
+        "icao": "IBE3862",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "411",
+          "flight_iata": "ba411",
+          "flight_icao": "baw411"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "40123F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T19:40:00+00:00",
+        "estimated": "2026-11-10T19:40:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "9608",
+        "iata": "VY9608",
+        "icao": "VLG9608",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "411",
+          "flight_iata": "ba411",
+          "flight_icao": "baw411"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "40123F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T19:40:00+00:00",
+        "estimated": "2026-11-10T19:40:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:05:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "7034",
+        "iata": "AA7034",
+        "icao": "AAL7034",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "411",
+          "flight_iata": "ba411",
+          "flight_icao": "baw411"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "40123F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 11,
+        "scheduled": "2026-11-10T19:35:00+00:00",
+        "estimated": "2026-11-10T19:35:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:46:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Zurich",
+        "timezone": "Europe/Zurich",
+        "iata": "ZRH",
+        "icao": "LSZH",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:45:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Swiss",
+        "iata": "LX",
+        "icao": "SWR"
+      },
+      "flight": {
+        "number": "2147",
+        "iata": "LX2147",
+        "icao": "SWR2147",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4B194C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T19:30:00+00:00",
+        "estimated": "2026-11-10T19:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "W. A. Mozart",
+        "timezone": "Europe/Vienna",
+        "iata": "SZG",
+        "icao": "LOWS",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:36:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LEAV Aviation",
+        "iata": "KK",
+        "icao": "NGN"
+      },
+      "flight": {
+        "number": "7110",
+        "iata": "KK7110",
+        "icao": "NGN7110",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C7889"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 9,
+        "scheduled": "2026-11-10T19:25:00+00:00",
+        "estimated": "2026-11-10T19:25:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:34:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Fontanarossa",
+        "timezone": "Europe/Rome",
+        "iata": "CTA",
+        "icao": "LICC",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T21:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "2895",
+        "iata": "FR2895",
+        "icao": "RYR2895",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4D2096"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T19:20:00+00:00",
+        "estimated": "2026-11-10T19:20:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:20:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Mohamed V",
+        "timezone": "Africa/Casablanca",
+        "iata": "CMN",
+        "icao": "GMMN",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T20:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Royal Air Maroc",
+        "iata": "AT",
+        "icao": "RAM"
+      },
+      "flight": {
+        "number": "969",
+        "iata": "AT969",
+        "icao": "RAM969",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "020111"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T19:20:00+00:00",
+        "estimated": "2026-11-10T19:20:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:20:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Mohamed V",
+        "timezone": "Africa/Casablanca",
+        "iata": "CMN",
+        "icao": "GMMN",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T20:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "7610",
+        "iata": "IB7610",
+        "icao": "IBE7610",
+        "codeshared": {
+          "airline_name": "royal air maroc",
+          "airline_iata": "at",
+          "airline_icao": "ram",
+          "flight_number": "969",
+          "flight_iata": "at969",
+          "flight_icao": "ram969"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "020111"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T19:05:00+00:00",
+        "estimated": "2026-11-10T19:05:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T19:05:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Milano Malpensa",
+        "timezone": "Europe/Rome",
+        "iata": "MXP",
+        "icao": "LIMC",
+        "terminal": "1",
+        "gate": null,
+        "baggage": "1",
+        "scheduled": "2026-11-10T21:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "1481",
+        "iata": "FR1481",
+        "icao": "RYR1481",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4CAE6B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 1,
+        "scheduled": "2026-11-10T18:30:00+00:00",
+        "estimated": "2026-11-10T18:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:31:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Iasi",
+        "timezone": "Europe/Bucharest",
+        "iata": "IAS",
+        "icao": "LRIA",
+        "terminal": "4",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T23:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Wizz Air",
+        "iata": "W4",
+        "icao": "WMT"
+      },
+      "flight": {
+        "number": "3724",
+        "iata": "W43724",
+        "icao": "WMT3724",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4D242A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T18:25:00+00:00",
+        "estimated": "2026-11-10T18:25:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Istanbul Airport",
+        "timezone": "Europe/Istanbul",
+        "iata": "IST",
+        "icao": "LTFM",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-11T00:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Turkish Airlines",
+        "iata": "TK",
+        "icao": "THY"
+      },
+      "flight": {
+        "number": "1314",
+        "iata": "TK1314",
+        "icao": "THY1314",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4BB20F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T18:25:00+00:00",
+        "estimated": "2026-11-10T18:25:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Istanbul Airport",
+        "timezone": "Europe/Istanbul",
+        "iata": "IST",
+        "icao": "LTFM",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-11T00:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Thai Airways",
+        "iata": "TG",
+        "icao": "THA"
+      },
+      "flight": {
+        "number": "9113",
+        "iata": "TG9113",
+        "icao": "THA9113",
+        "codeshared": {
+          "airline_name": "turkish airlines",
+          "airline_iata": "tk",
+          "airline_icao": "thy",
+          "flight_number": "1314",
+          "flight_iata": "tk1314",
+          "flight_icao": "thy1314"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4BB20F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T18:25:00+00:00",
+        "estimated": "2026-11-10T18:25:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Istanbul Airport",
+        "timezone": "Europe/Istanbul",
+        "iata": "IST",
+        "icao": "LTFM",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-11T00:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      },
+      "flight": {
+        "number": "4360",
+        "iata": "6E4360",
+        "icao": "IGO4360",
+        "codeshared": {
+          "airline_name": "turkish airlines",
+          "airline_iata": "tk",
+          "airline_icao": "thy",
+          "flight_number": "1314",
+          "flight_iata": "tk1314",
+          "flight_icao": "thy1314"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4BB20F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 13,
+        "scheduled": "2026-11-10T18:15:00+00:00",
+        "estimated": "2026-11-10T18:15:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:28:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Franz Josef Strauss",
+        "timezone": "Europe/Berlin",
+        "iata": "MUC",
+        "icao": "EDDM",
+        "terminal": "2",
+        "gate": "K1",
+        "baggage": null,
+        "scheduled": "2026-11-10T20:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "VL",
+        "icao": "LHX"
+      },
+      "flight": {
+        "number": "1843",
+        "iata": "VL1843",
+        "icao": "LHX1843",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C6521"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 13,
+        "scheduled": "2026-11-10T18:15:00+00:00",
+        "estimated": "2026-11-10T18:15:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:28:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Franz Josef Strauss",
+        "timezone": "Europe/Berlin",
+        "iata": "MUC",
+        "icao": "EDDM",
+        "terminal": "2",
+        "gate": "K1",
+        "baggage": null,
+        "scheduled": "2026-11-10T20:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH"
+      },
+      "flight": {
+        "number": "4185",
+        "iata": "LH4185",
+        "icao": "DLH4185",
+        "codeshared": {
+          "airline_name": "lufthansa",
+          "airline_iata": "vl",
+          "airline_icao": "lhx",
+          "flight_number": "1843",
+          "flight_iata": "vl1843",
+          "flight_icao": "lhx1843"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C6521"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T18:15:00+00:00",
+        "estimated": "2026-11-10T18:15:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:25:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Lisbon Portela",
+        "timezone": "Europe/Lisbon",
+        "iata": "LIS",
+        "icao": "LPPT",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "1095",
+        "iata": "TP1095",
+        "icao": "TAP1095",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "495213"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T18:15:00+00:00",
+        "estimated": "2026-11-10T18:15:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:25:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Lisbon Portela",
+        "timezone": "Europe/Lisbon",
+        "iata": "LIS",
+        "icao": "LPPT",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Azores Airlines",
+        "iata": "S4",
+        "icao": "RZO"
+      },
+      "flight": {
+        "number": "8748",
+        "iata": "S48748",
+        "icao": "RZO8748",
+        "codeshared": {
+          "airline_name": "tap air portugal",
+          "airline_iata": "tp",
+          "airline_icao": "tap",
+          "flight_number": "1095",
+          "flight_iata": "tp1095",
+          "flight_icao": "tap1095"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "495213"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T18:15:00+00:00",
+        "estimated": "2026-11-10T18:15:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:25:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Lisbon Portela",
+        "timezone": "Europe/Lisbon",
+        "iata": "LIS",
+        "icao": "LPPT",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      },
+      "flight": {
+        "number": "4897",
+        "iata": "EK4897",
+        "icao": "UAE4897",
+        "codeshared": {
+          "airline_name": "tap air portugal",
+          "airline_iata": "tp",
+          "airline_icao": "tap",
+          "flight_number": "1095",
+          "flight_iata": "tp1095",
+          "flight_icao": "tap1095"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "495213"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T18:15:00+00:00",
+        "estimated": "2026-11-10T18:15:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:25:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Lisbon Portela",
+        "timezone": "Europe/Lisbon",
+        "iata": "LIS",
+        "icao": "LPPT",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Azul",
+        "iata": "AD",
+        "icao": "AZU"
+      },
+      "flight": {
+        "number": "7354",
+        "iata": "AD7354",
+        "icao": "AZU7354",
+        "codeshared": {
+          "airline_name": "tap air portugal",
+          "airline_iata": "tp",
+          "airline_icao": "tap",
+          "flight_number": "1095",
+          "flight_iata": "tp1095",
+          "flight_icao": "tap1095"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "495213"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T18:10:00+00:00",
+        "estimated": "2026-11-10T18:10:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:20:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Bilbao",
+        "timezone": "Europe/Madrid",
+        "iata": "BIO",
+        "icao": "LEBB",
+        "terminal": null,
+        "gate": null,
+        "baggage": "4",
+        "scheduled": "2026-11-10T19:25:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "1717",
+        "iata": "VY1717",
+        "icao": "VLG1717",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3424D2"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T18:10:00+00:00",
+        "estimated": "2026-11-10T18:10:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:20:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Bilbao",
+        "timezone": "Europe/Madrid",
+        "iata": "BIO",
+        "icao": "LEBB",
+        "terminal": null,
+        "gate": null,
+        "baggage": "4",
+        "scheduled": "2026-11-10T19:25:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "5550",
+        "iata": "IB5550",
+        "icao": "IBE5550",
+        "codeshared": {
+          "airline_name": "vueling",
+          "airline_iata": "vy",
+          "airline_icao": "vlg",
+          "flight_number": "1717",
+          "flight_iata": "vy1717",
+          "flight_icao": "vlg1717"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3424D2"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": null,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "1082",
+        "iata": "IB1082",
+        "icao": "IBE1082",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 11,
+        "scheduled": "2026-11-10T16:55:00+00:00",
+        "estimated": "2026-11-10T16:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:06:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Schiphol",
+        "timezone": "Europe/Amsterdam",
+        "iata": "AMS",
+        "icao": "EHAM",
+        "terminal": null,
+        "gate": "A04",
+        "baggage": null,
+        "scheduled": "2026-11-10T19:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "WA",
+        "icao": "KLC"
+      },
+      "flight": {
+        "number": "1532",
+        "iata": "WA1532",
+        "icao": "KLC1532",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4864EC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "17",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:00:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "YW",
+        "icao": "ANE"
+      },
+      "flight": {
+        "number": "1082",
+        "iata": "YW1082",
+        "icao": "ANE1082",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "17",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:00:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "China Southern Airlines",
+        "iata": "CZ",
+        "icao": "CSN"
+      },
+      "flight": {
+        "number": "7326",
+        "iata": "CZ7326",
+        "icao": "CSN7326",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1082",
+          "flight_iata": "yw1082",
+          "flight_icao": "ane1082"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "17",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:00:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Japan Airlines",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "9406",
+        "iata": "JL9406",
+        "icao": "JTL9406",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1082",
+          "flight_iata": "yw1082",
+          "flight_icao": "ane1082"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "17",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:00:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "7071",
+        "iata": "BA7071",
+        "icao": "BAW7071",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1082",
+          "flight_iata": "yw1082",
+          "flight_icao": "ane1082"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "17",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:00:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "5380",
+        "iata": "QR5380",
+        "icao": "QTR5380",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1082",
+          "flight_iata": "yw1082",
+          "flight_icao": "ane1082"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "17",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:00:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "TAAG Angola Airlines",
+        "iata": "DT",
+        "icao": "DTA"
+      },
+      "flight": {
+        "number": "6877",
+        "iata": "DT6877",
+        "icao": "DTA6877",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1082",
+          "flight_iata": "yw1082",
+          "flight_icao": "ane1082"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "17",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:00:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "5583",
+        "iata": "VY5583",
+        "icao": "VLG5583",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1082",
+          "flight_iata": "yw1082",
+          "flight_icao": "ane1082"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "17",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:00:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "avianca",
+        "iata": "AV",
+        "icao": "AVA"
+      },
+      "flight": {
+        "number": "6140",
+        "iata": "AV6140",
+        "icao": "AVA6140",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1082",
+          "flight_iata": "yw1082",
+          "flight_icao": "ane1082"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "17",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T18:00:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T19:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "1719",
+        "iata": "LA1719",
+        "icao": "LAN1719",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1082",
+          "flight_iata": "yw1082",
+          "flight_icao": "ane1082"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T17:55:00+00:00",
+        "estimated": "2026-11-10T17:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:55:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Leonardo Da Vinci (Fiumicino)",
+        "timezone": "Europe/Rome",
+        "iata": "FCO",
+        "icao": "LIRF",
+        "terminal": "1",
+        "gate": null,
+        "baggage": "27",
+        "scheduled": "2026-11-10T20:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "1000",
+        "iata": "FR1000",
+        "icao": "RYR1000",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4D2368"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T17:30:00+00:00",
+        "estimated": "2026-11-10T17:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "S. Angelo",
+        "timezone": "Europe/Rome",
+        "iata": "TSF",
+        "icao": "LIPH",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T19:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "6249",
+        "iata": "FR6249",
+        "icao": "RYR6249",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4CAE61"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 9,
+        "scheduled": "2026-11-10T17:25:00+00:00",
+        "estimated": "2026-11-10T17:25:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:34:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Menara",
+        "timezone": "Africa/Casablanca",
+        "iata": "RAK",
+        "icao": "GMMX",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T18:25:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "2216",
+        "iata": "FR2216",
+        "icao": "RYR2216",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4D2246"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "18",
+        "delay": 9,
+        "scheduled": "2026-11-10T17:10:00+00:00",
+        "estimated": "2026-11-10T17:10:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:19:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Norte Los Rodeos",
+        "timezone": "Atlantic/Canary",
+        "iata": "TFN",
+        "icao": "GCXO",
+        "terminal": null,
+        "gate": null,
+        "baggage": "4",
+        "scheduled": "2026-11-10T19:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "3217",
+        "iata": "VY3217",
+        "icao": "VLG3217",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34440A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "18",
+        "delay": 9,
+        "scheduled": "2026-11-10T17:10:00+00:00",
+        "estimated": "2026-11-10T17:10:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:19:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Norte Los Rodeos",
+        "timezone": "Atlantic/Canary",
+        "iata": "TFN",
+        "icao": "GCXO",
+        "terminal": null,
+        "gate": null,
+        "baggage": "4",
+        "scheduled": "2026-11-10T19:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "5688",
+        "iata": "IB5688",
+        "icao": "IBE5688",
+        "codeshared": {
+          "airline_name": "vueling",
+          "airline_iata": "vy",
+          "airline_icao": "vlg",
+          "flight_number": "3217",
+          "flight_iata": "vy3217",
+          "flight_icao": "vlg3217"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34440A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "9",
+        "delay": 0,
+        "scheduled": "2026-11-10T17:05:00+00:00",
+        "estimated": "2026-11-10T17:05:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:05:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Son Sant Joan Airport",
+        "timezone": "Europe/Madrid",
+        "iata": "PMI",
+        "icao": "LEPA",
+        "terminal": "N",
+        "gate": null,
+        "baggage": "17",
+        "scheduled": "2026-11-10T18:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Europa",
+        "iata": "UX",
+        "icao": "AEA"
+      },
+      "flight": {
+        "number": "4014",
+        "iata": "UX4014",
+        "icao": "AEA4014",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "15",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:00:00+00:00",
+        "estimated": "2026-11-10T17:00:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:05:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Son Sant Joan Airport",
+        "timezone": "Europe/Madrid",
+        "iata": "PMI",
+        "icao": "LEPA",
+        "terminal": "N",
+        "gate": null,
+        "baggage": "13",
+        "scheduled": "2026-11-10T18:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "YW",
+        "icao": "ANE"
+      },
+      "flight": {
+        "number": "2401",
+        "iata": "YW2401",
+        "icao": "ANE2401",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "345385"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "15",
+        "delay": 5,
+        "scheduled": "2026-11-10T17:00:00+00:00",
+        "estimated": "2026-11-10T17:00:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:05:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Son Sant Joan Airport",
+        "timezone": "Europe/Madrid",
+        "iata": "PMI",
+        "icao": "LEPA",
+        "terminal": "N",
+        "gate": null,
+        "baggage": "13",
+        "scheduled": "2026-11-10T18:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "5801",
+        "iata": "VY5801",
+        "icao": "VLG5801",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "2401",
+          "flight_iata": "yw2401",
+          "flight_icao": "ane2401"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "345385"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": null,
+        "scheduled": "2026-11-10T16:55:00+00:00",
+        "estimated": "2026-11-10T16:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Schiphol",
+        "timezone": "Europe/Amsterdam",
+        "iata": "AMS",
+        "icao": "EHAM",
+        "terminal": null,
+        "gate": "A04",
+        "baggage": null,
+        "scheduled": "2026-11-10T19:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "flight": {
+        "number": "1532",
+        "iata": "KL1532",
+        "icao": "KLM1532",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 11,
+        "scheduled": "2026-11-10T16:55:00+00:00",
+        "estimated": "2026-11-10T16:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:06:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Schiphol",
+        "timezone": "Europe/Amsterdam",
+        "iata": "AMS",
+        "icao": "EHAM",
+        "terminal": null,
+        "gate": "A04",
+        "baggage": null,
+        "scheduled": "2026-11-10T19:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      },
+      "flight": {
+        "number": "6811",
+        "iata": "SK6811",
+        "icao": "SAS6811",
+        "codeshared": {
+          "airline_name": "klm",
+          "airline_iata": "wa",
+          "airline_icao": "klc",
+          "flight_number": "1532",
+          "flight_iata": "wa1532",
+          "flight_icao": "klc1532"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4864EC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 11,
+        "scheduled": "2026-11-10T16:55:00+00:00",
+        "estimated": "2026-11-10T16:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:06:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Schiphol",
+        "timezone": "Europe/Amsterdam",
+        "iata": "AMS",
+        "icao": "EHAM",
+        "terminal": null,
+        "gate": "A04",
+        "baggage": null,
+        "scheduled": "2026-11-10T19:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "China Eastern Airlines",
+        "iata": "MU",
+        "icao": "CES"
+      },
+      "flight": {
+        "number": "1896",
+        "iata": "MU1896",
+        "icao": "CES1896",
+        "codeshared": {
+          "airline_name": "klm",
+          "airline_iata": "wa",
+          "airline_icao": "klc",
+          "flight_number": "1532",
+          "flight_iata": "wa1532",
+          "flight_icao": "klc1532"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4864EC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 11,
+        "scheduled": "2026-11-10T16:55:00+00:00",
+        "estimated": "2026-11-10T16:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T17:06:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Schiphol",
+        "timezone": "Europe/Amsterdam",
+        "iata": "AMS",
+        "icao": "EHAM",
+        "terminal": null,
+        "gate": "A04",
+        "baggage": null,
+        "scheduled": "2026-11-10T19:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "GOL",
+        "iata": "G3",
+        "icao": "GLO"
+      },
+      "flight": {
+        "number": "5611",
+        "iata": "G35611",
+        "icao": "GLO5611",
+        "codeshared": {
+          "airline_name": "klm",
+          "airline_iata": "wa",
+          "airline_icao": "klc",
+          "flight_number": "1532",
+          "flight_iata": "wa1532",
+          "flight_icao": "klc1532"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4864EC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T16:35:00+00:00",
+        "estimated": "2026-11-10T16:35:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T16:45:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Bergamo - Orio al Serio",
+        "timezone": "Europe/Rome",
+        "iata": "BGY",
+        "icao": "LIME",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T18:30:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "496",
+        "iata": "FR496",
+        "icao": "RYR496",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4D2215"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "7",
+        "delay": 0,
+        "scheduled": "2026-11-10T16:10:00+00:00",
+        "estimated": "2026-11-10T16:10:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T16:10:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Francisco Sá Carneiro",
+        "timezone": "Europe/Lisbon",
+        "iata": "OPO",
+        "icao": "LPPR",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T16:45:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "1709",
+        "iata": "FR1709",
+        "icao": "RYR1709",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4CAE91"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T14:25:00+00:00",
+        "estimated": "2026-11-10T14:25:00+00:00",
+        "actual": "2026-11-10T14:35:00+00:00",
+        "estimated_runway": "2026-11-10T14:35:00+00:00",
+        "actual_runway": "2026-11-10T14:35:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "T2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T15:30:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Europa",
+        "iata": "UX",
+        "icao": "AME"
+      },
+      "flight": {
+        "number": "853",
+        "iata": "UX853",
+        "icao": "AME853",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "EC-LUT",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "344446"
+      },
+      "live": {
+        "updated": "2026-11-10T13:45:54+00:00",
+        "latitude": 40.17,
+        "longitude": -2.0634,
+        "altitude": 6705.6,
+        "direction": 298,
+        "speed_horizontal": 629.68,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "10",
+        "delay": 0,
+        "scheduled": "2026-11-10T15:35:00+00:00",
+        "estimated": "2026-11-10T15:35:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T15:35:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Leonardo Da Vinci (Fiumicino)",
+        "timezone": "Europe/Rome",
+        "iata": "FCO",
+        "icao": "LIRF",
+        "terminal": "1",
+        "gate": null,
+        "baggage": "27",
+        "scheduled": "2026-11-10T17:40:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Wizz Air",
+        "iata": "W4",
+        "icao": "WMT"
+      },
+      "flight": {
+        "number": "6028",
+        "iata": "W46028",
+        "icao": "WMT6028",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4D2007"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": null,
+        "delay": 0,
+        "scheduled": "2026-11-10T13:10:00+00:00",
+        "estimated": "2026-11-10T13:10:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T13:10:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T14:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "1078",
+        "iata": "IB1078",
+        "icao": "IBE1078",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "EC-MPA",
+        "iata": "CRJX",
+        "icao": "CRJX",
+        "icao24": "345388"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "12",
+        "delay": 0,
+        "scheduled": "2026-11-10T14:55:00+00:00",
+        "estimated": "2026-11-10T14:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:55:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Düsseldorf International Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "DUS",
+        "icao": "EDDL",
+        "terminal": "B",
+        "gate": "B29",
+        "baggage": null,
+        "scheduled": "2026-11-10T17:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Eurowings",
+        "iata": "EW",
+        "icao": "EWG"
+      },
+      "flight": {
+        "number": "9539",
+        "iata": "EW9539",
+        "icao": "EWG9539",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C4B4B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "12",
+        "delay": 0,
+        "scheduled": "2026-11-10T14:55:00+00:00",
+        "estimated": "2026-11-10T14:55:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:55:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Düsseldorf International Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "DUS",
+        "icao": "EDDL",
+        "terminal": "B",
+        "gate": "B29",
+        "baggage": null,
+        "scheduled": "2026-11-10T17:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "SunExpress",
+        "iata": "XQ",
+        "icao": "SXS"
+      },
+      "flight": {
+        "number": "4139",
+        "iata": "XQ4139",
+        "icao": "SXS4139",
+        "codeshared": {
+          "airline_name": "eurowings",
+          "airline_iata": "ew",
+          "airline_icao": "ewg",
+          "flight_number": "9539",
+          "flight_iata": "ew9539",
+          "flight_icao": "ewg9539"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C4B4B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "8",
+        "delay": 5,
+        "scheduled": "2026-11-10T14:50:00+00:00",
+        "estimated": "2026-11-10T14:50:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:55:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Orly",
+        "timezone": "Europe/Paris",
+        "iata": "ORY",
+        "icao": "LFPO",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T16:55:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "8081",
+        "iata": "VY8081",
+        "icao": "VLG8081",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "348205"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "8",
+        "delay": 5,
+        "scheduled": "2026-11-10T14:50:00+00:00",
+        "estimated": "2026-11-10T14:50:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:55:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Orly",
+        "timezone": "Europe/Paris",
+        "iata": "ORY",
+        "icao": "LFPO",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T16:55:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "5927",
+        "iata": "IB5927",
+        "icao": "IBE5927",
+        "codeshared": {
+          "airline_name": "vueling",
+          "airline_iata": "vy",
+          "airline_icao": "vlg",
+          "flight_number": "8081",
+          "flight_iata": "vy8081",
+          "flight_icao": "vlg8081"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "348205"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T14:30:00+00:00",
+        "estimated": "2026-11-10T14:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Stuttgart Echterdingen",
+        "timezone": "Europe/Berlin",
+        "iata": "STR",
+        "icao": "EDDS",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T16:29:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LEAV Aviation",
+        "iata": "KK",
+        "icao": "NGN"
+      },
+      "flight": {
+        "number": "7261",
+        "iata": "KK7261",
+        "icao": "NGN7261",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "D-ADDY",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "3C5099"
+      },
+      "live": {
+        "updated": "2026-11-10T13:45:53+00:00",
+        "latitude": 39.75,
+        "longitude": -0.1115,
+        "altitude": 5196.84,
+        "direction": 44,
+        "speed_horizontal": 750.06,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "scheduled",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T14:30:00+00:00",
+        "estimated": "2026-11-10T14:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Düsseldorf International Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "DUS",
+        "icao": "EDDL",
+        "terminal": "B",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T17:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LEAV Aviation",
+        "iata": "KK",
+        "icao": "NGN"
+      },
+      "flight": {
+        "number": "7151",
+        "iata": "KK7151",
+        "icao": "NGN7151",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "D-ANNE",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "3C79C5"
+      },
+      "live": {
+        "updated": "2026-11-10T13:45:43+00:00",
+        "latitude": 39.4921,
+        "longitude": -0.4806,
+        "altitude": 0,
+        "direction": 208,
+        "speed_horizontal": 18.52,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T14:30:00+00:00",
+        "estimated": "2026-11-10T14:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Halle",
+        "timezone": "Europe/Berlin",
+        "iata": "LEJ",
+        "icao": "EDDP",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T17:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "DAT",
+        "iata": "KK",
+        "icao": "NGN"
+      },
+      "flight": {
+        "number": "7371",
+        "iata": "KK7371",
+        "icao": "NGN7371",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "OY-RUH",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "45CAA8"
+      },
+      "live": {
+        "updated": "2026-11-10T13:45:54+00:00",
+        "latitude": 39.4825,
+        "longitude": -0.4628,
+        "altitude": 388.62,
+        "direction": 115,
+        "speed_horizontal": 288.912,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2026-11-10T14:30:00+00:00",
+        "estimated": "2026-11-10T14:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:40:00+00:00",
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Hamburg Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "HAM",
+        "icao": "EDDH",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T17:26:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Global Reach Aviation",
+        "iata": null,
+        "icao": "GAV"
+      },
+      "flight": {
+        "number": null,
+        "iata": null,
+        "icao": "GAV",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "45B534"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "10",
+        "delay": 11,
+        "scheduled": "2026-11-10T13:40:00+00:00",
+        "estimated": "2026-11-10T13:40:00+00:00",
+        "actual": "2026-11-10T13:51:00+00:00",
+        "estimated_runway": "2026-11-10T13:51:00+00:00",
+        "actual_runway": "2026-11-10T13:51:00+00:00"
+      },
+      "arrival": {
+        "airport": "Lisbon Portela",
+        "timezone": "Europe/Lisbon",
+        "iata": "LIS",
+        "icao": "LPPT",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T14:20:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:14:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:14:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "1769",
+        "iata": "FR1769",
+        "icao": "RYR1769",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "9H-VUR",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "4D2368"
+      },
+      "live": {
+        "updated": "2026-11-10T13:46:29+00:00",
+        "latitude": 39.0744,
+        "longitude": -7.5816,
+        "altitude": 7917.18,
+        "direction": 243,
+        "speed_horizontal": 651.904,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "5",
+        "delay": 36,
+        "scheduled": "2026-11-10T13:25:00+00:00",
+        "estimated": "2026-11-10T13:25:00+00:00",
+        "actual": "2026-11-10T14:01:00+00:00",
+        "estimated_runway": "2026-11-10T14:01:00+00:00",
+        "actual_runway": "2026-11-10T14:01:00+00:00"
+      },
+      "arrival": {
+        "airport": "Vienna International",
+        "timezone": "Europe/Vienna",
+        "iata": "VIE",
+        "icao": "LOWW",
+        "terminal": "3",
+        "gate": "F16",
+        "baggage": null,
+        "scheduled": "2026-11-10T16:00:00+00:00",
+        "delay": 7,
+        "estimated": "2026-11-10T16:07:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T16:07:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Austrian Airlines",
+        "iata": "OS",
+        "icao": "AUA"
+      },
+      "flight": {
+        "number": "432",
+        "iata": "OS432",
+        "icao": "AUA432",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "OE-LBK",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "440667"
+      },
+      "live": {
+        "updated": "2026-11-10T13:37:49+00:00",
+        "latitude": 41.7897,
+        "longitude": 4.4322,
+        "altitude": 10386.1,
+        "direction": 47,
+        "speed_horizontal": 929.704,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "20",
+        "delay": 33,
+        "scheduled": "2026-11-10T13:20:00+00:00",
+        "estimated": "2026-11-10T13:20:00+00:00",
+        "actual": "2026-11-10T13:53:00+00:00",
+        "estimated_runway": "2026-11-10T13:53:00+00:00",
+        "actual_runway": "2026-11-10T13:53:00+00:00"
+      },
+      "arrival": {
+        "airport": "Son Sant Joan Airport",
+        "timezone": "Europe/Madrid",
+        "iata": "PMI",
+        "icao": "LEPA",
+        "terminal": "N",
+        "gate": null,
+        "baggage": "13",
+        "scheduled": "2026-11-10T14:20:00+00:00",
+        "delay": 10,
+        "estimated": "2026-11-10T14:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:30:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "YW",
+        "icao": "ANE"
+      },
+      "flight": {
+        "number": "2403",
+        "iata": "YW2403",
+        "icao": "ANE2403",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "345385"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "20",
+        "delay": 33,
+        "scheduled": "2026-11-10T13:20:00+00:00",
+        "estimated": "2026-11-10T13:20:00+00:00",
+        "actual": "2026-11-10T13:53:00+00:00",
+        "estimated_runway": "2026-11-10T13:53:00+00:00",
+        "actual_runway": "2026-11-10T13:53:00+00:00"
+      },
+      "arrival": {
+        "airport": "Son Sant Joan Airport",
+        "timezone": "Europe/Madrid",
+        "iata": "PMI",
+        "icao": "LEPA",
+        "terminal": "N",
+        "gate": null,
+        "baggage": "13",
+        "scheduled": "2026-11-10T14:20:00+00:00",
+        "delay": 10,
+        "estimated": "2026-11-10T14:30:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:30:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "5803",
+        "iata": "VY5803",
+        "icao": "VLG5803",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "2403",
+          "flight_iata": "yw2403",
+          "flight_icao": "ane2403"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "345385"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "7",
+        "delay": 1,
+        "scheduled": "2026-11-10T13:15:00+00:00",
+        "estimated": "2026-11-10T13:15:00+00:00",
+        "actual": "2026-11-10T13:16:00+00:00",
+        "estimated_runway": "2026-11-10T13:16:00+00:00",
+        "actual_runway": "2026-11-10T13:16:00+00:00"
+      },
+      "arrival": {
+        "airport": "Son Sant Joan Airport",
+        "timezone": "Europe/Madrid",
+        "iata": "PMI",
+        "icao": "LEPA",
+        "terminal": "N",
+        "gate": null,
+        "baggage": "07",
+        "scheduled": "2026-11-10T14:15:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T13:56:00+00:00",
+        "actual": "2026-11-10T13:56:00+00:00",
+        "estimated_runway": "2026-11-10T13:56:00+00:00",
+        "actual_runway": "2026-11-10T13:56:00+00:00"
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "7372",
+        "iata": "FR7372",
+        "icao": "RYR7372",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "9H-QBV",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "4D2261"
+      },
+      "live": {
+        "updated": "2026-11-10T12:59:08+00:00",
+        "latitude": 39.553,
+        "longitude": 2.7354,
+        "altitude": 0,
+        "direction": 149,
+        "speed_horizontal": 27.78,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "15",
+        "delay": 8,
+        "scheduled": "2026-11-10T13:10:00+00:00",
+        "estimated": "2026-11-10T13:10:00+00:00",
+        "actual": "2026-11-10T13:18:00+00:00",
+        "estimated_runway": "2026-11-10T13:18:00+00:00",
+        "actual_runway": "2026-11-10T13:18:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T14:15:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:04:00+00:00",
+        "actual": "2026-11-10T14:05:00+00:00",
+        "estimated_runway": "2026-11-10T14:05:00+00:00",
+        "actual_runway": "2026-11-10T14:05:00+00:00"
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "YW",
+        "icao": "ANE"
+      },
+      "flight": {
+        "number": "1078",
+        "iata": "YW1078",
+        "icao": "ANE1078",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "EC-MPA",
+        "iata": "CRJX",
+        "icao": "CRJX",
+        "icao24": "345388"
+      },
+      "live": {
+        "updated": "2026-11-10T13:19:03+00:00",
+        "latitude": 40.4924,
+        "longitude": -3.586,
+        "altitude": 0,
+        "direction": 270,
+        "speed_horizontal": 35.188,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "15",
+        "delay": 8,
+        "scheduled": "2026-11-10T13:10:00+00:00",
+        "estimated": "2026-11-10T13:10:00+00:00",
+        "actual": "2026-11-10T13:18:00+00:00",
+        "estimated_runway": "2026-11-10T13:18:00+00:00",
+        "actual_runway": "2026-11-10T13:18:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T14:15:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:04:00+00:00",
+        "actual": "2026-11-10T14:05:00+00:00",
+        "estimated_runway": "2026-11-10T14:05:00+00:00",
+        "actual_runway": "2026-11-10T14:05:00+00:00"
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "8559",
+        "iata": "AA8559",
+        "icao": "AAL8559",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1078",
+          "flight_iata": "yw1078",
+          "flight_icao": "ane1078"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "345388"
+      },
+      "live": {
+        "updated": "2026-11-10T13:19:03+00:00",
+        "latitude": 40.4924,
+        "longitude": -3.586,
+        "altitude": 0,
+        "direction": 270,
+        "speed_horizontal": 35.188,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "1",
+        "delay": 4,
+        "scheduled": "2026-11-10T13:10:00+00:00",
+        "estimated": "2026-11-10T13:10:00+00:00",
+        "actual": "2026-11-10T13:14:00+00:00",
+        "estimated_runway": "2026-11-10T13:14:00+00:00",
+        "actual_runway": "2026-11-10T13:14:00+00:00"
+      },
+      "arrival": {
+        "airport": "Stansted",
+        "timezone": "Europe/London",
+        "iata": "STN",
+        "icao": "EGSS",
+        "terminal": null,
+        "gate": "47",
+        "baggage": null,
+        "scheduled": "2026-11-10T14:40:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:17:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:17:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      },
+      "flight": {
+        "number": "642",
+        "iata": "FR642",
+        "icao": "RYR642",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "EI-IJX",
+        "iata": "B38M",
+        "icao": "B38M",
+        "icao24": "4CAE6B"
+      },
+      "live": {
+        "updated": "2026-11-10T13:38:23+00:00",
+        "latitude": 49.1014,
+        "longitude": -1.0653,
+        "altitude": 10972.8,
+        "direction": 355,
+        "speed_horizontal": 868.588,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "22",
+        "delay": 12,
+        "scheduled": "2026-11-10T06:05:00+00:00",
+        "estimated": "2026-11-10T06:05:00+00:00",
+        "actual": "2026-11-10T06:17:00+00:00",
+        "estimated_runway": "2026-11-10T06:17:00+00:00",
+        "actual_runway": "2026-11-10T06:17:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "4",
+        "gate": null,
+        "baggage": "1019",
+        "scheduled": "2026-11-10T07:10:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T06:56:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T06:56:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Japan Airlines",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "6962",
+        "iata": "JL6962",
+        "icao": "JTL6962",
+        "codeshared": {
+          "airline_name": "iberia",
+          "airline_iata": "yw",
+          "airline_icao": "ane",
+          "flight_number": "1084",
+          "flight_iata": "yw1084",
+          "flight_icao": "ane1084"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3452C8"
+      },
+      "live": {
+        "updated": "2026-11-10T06:04:57+00:00",
+        "latitude": 40.4936,
+        "longitude": -3.5806,
+        "altitude": 0,
+        "direction": 357,
+        "speed_horizontal": 35.188,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 42,
+        "scheduled": "2026-11-10T13:00:00+00:00",
+        "estimated": "2026-11-10T13:00:00+00:00",
+        "actual": "2026-11-10T13:42:00+00:00",
+        "estimated_runway": "2026-11-10T13:42:00+00:00",
+        "actual_runway": "2026-11-10T13:42:00+00:00"
+      },
+      "arrival": {
+        "airport": "Vitoria",
+        "timezone": "Europe/Madrid",
+        "iata": "VIT",
+        "icao": "LEVT",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T14:03:00+00:00",
+        "delay": 28,
+        "estimated": "2026-11-10T14:31:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:31:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "YW",
+        "icao": "ANE"
+      },
+      "flight": {
+        "number": null,
+        "iata": "YW",
+        "icao": "ANE",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "345687"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": null,
+        "gate": null,
+        "delay": 21,
+        "scheduled": "2026-11-10T13:00:00+00:00",
+        "estimated": "2026-11-10T13:00:00+00:00",
+        "actual": "2026-11-10T13:21:00+00:00",
+        "estimated_runway": "2026-11-10T13:21:00+00:00",
+        "actual_runway": "2026-11-10T13:21:00+00:00"
+      },
+      "arrival": {
+        "airport": "Reus",
+        "timezone": "Europe/Madrid",
+        "iata": "REU",
+        "icao": "LERS",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T13:56:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T13:52:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T13:52:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Platoon Aviation",
+        "iata": null,
+        "icao": "PTN"
+      },
+      "flight": {
+        "number": null,
+        "iata": null,
+        "icao": "PTN",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3CD90E"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "12",
+        "delay": 74,
+        "scheduled": "2026-11-10T12:50:00+00:00",
+        "estimated": "2026-11-10T12:50:00+00:00",
+        "actual": "2026-11-10T14:04:00+00:00",
+        "estimated_runway": "2026-11-10T13:41:00+00:00",
+        "actual_runway": "2026-11-10T14:04:00+00:00"
+      },
+      "arrival": {
+        "airport": "Frankfurt International Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "FRA",
+        "icao": "EDDF",
+        "terminal": "1",
+        "gate": "A16",
+        "baggage": null,
+        "scheduled": "2026-11-10T15:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH"
+      },
+      "flight": {
+        "number": "1101",
+        "iata": "LH1101",
+        "icao": "DLH1101",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "D-AIDX",
+        "iata": "A321",
+        "icao": "A321",
+        "icao24": "3C6498"
+      },
+      "live": {
+        "updated": "2026-11-10T13:37:49+00:00",
+        "latitude": 41.966,
+        "longitude": 3.7273,
+        "altitude": 10980.4,
+        "direction": 43,
+        "speed_horizontal": 903.776,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "12",
+        "delay": 74,
+        "scheduled": "2026-11-10T12:50:00+00:00",
+        "estimated": "2026-11-10T12:50:00+00:00",
+        "actual": "2026-11-10T14:04:00+00:00",
+        "estimated_runway": "2026-11-10T13:41:00+00:00",
+        "actual_runway": "2026-11-10T14:04:00+00:00"
+      },
+      "arrival": {
+        "airport": "Frankfurt International Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "FRA",
+        "icao": "EDDF",
+        "terminal": "1",
+        "gate": "A16",
+        "baggage": null,
+        "scheduled": "2026-11-10T15:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "United Airlines",
+        "iata": "UA",
+        "icao": "UAL"
+      },
+      "flight": {
+        "number": "9452",
+        "iata": "UA9452",
+        "icao": "UAL9452",
+        "codeshared": {
+          "airline_name": "lufthansa",
+          "airline_iata": "lh",
+          "airline_icao": "dlh",
+          "flight_number": "1101",
+          "flight_iata": "lh1101",
+          "flight_icao": "dlh1101"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C6498"
+      },
+      "live": {
+        "updated": "2026-11-10T13:37:49+00:00",
+        "latitude": 41.966,
+        "longitude": 3.7273,
+        "altitude": 10980.4,
+        "direction": 43,
+        "speed_horizontal": 903.776,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "12",
+        "delay": 74,
+        "scheduled": "2026-11-10T12:50:00+00:00",
+        "estimated": "2026-11-10T12:50:00+00:00",
+        "actual": "2026-11-10T14:04:00+00:00",
+        "estimated_runway": "2026-11-10T13:41:00+00:00",
+        "actual_runway": "2026-11-10T14:04:00+00:00"
+      },
+      "arrival": {
+        "airport": "Frankfurt International Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "FRA",
+        "icao": "EDDF",
+        "terminal": "1",
+        "gate": "A16",
+        "baggage": null,
+        "scheduled": "2026-11-10T15:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Thai Airways",
+        "iata": "TG",
+        "icao": "THA"
+      },
+      "flight": {
+        "number": "7833",
+        "iata": "TG7833",
+        "icao": "THA7833",
+        "codeshared": {
+          "airline_name": "lufthansa",
+          "airline_iata": "lh",
+          "airline_icao": "dlh",
+          "flight_number": "1101",
+          "flight_iata": "lh1101",
+          "flight_icao": "dlh1101"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C6498"
+      },
+      "live": {
+        "updated": "2026-11-10T13:37:49+00:00",
+        "latitude": 41.966,
+        "longitude": 3.7273,
+        "altitude": 10980.4,
+        "direction": 43,
+        "speed_horizontal": 903.776,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "12",
+        "delay": 74,
+        "scheduled": "2026-11-10T12:50:00+00:00",
+        "estimated": "2026-11-10T12:50:00+00:00",
+        "actual": "2026-11-10T14:04:00+00:00",
+        "estimated_runway": "2026-11-10T13:41:00+00:00",
+        "actual_runway": "2026-11-10T14:04:00+00:00"
+      },
+      "arrival": {
+        "airport": "Frankfurt International Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "FRA",
+        "icao": "EDDF",
+        "terminal": "1",
+        "gate": "A16",
+        "baggage": null,
+        "scheduled": "2026-11-10T15:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "All Nippon Airways",
+        "iata": "NH",
+        "icao": "ANA"
+      },
+      "flight": {
+        "number": "5860",
+        "iata": "NH5860",
+        "icao": "ANA5860",
+        "codeshared": {
+          "airline_name": "lufthansa",
+          "airline_iata": "lh",
+          "airline_icao": "dlh",
+          "flight_number": "1101",
+          "flight_iata": "lh1101",
+          "flight_icao": "dlh1101"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C6498"
+      },
+      "live": {
+        "updated": "2026-11-10T13:37:49+00:00",
+        "latitude": 41.966,
+        "longitude": 3.7273,
+        "altitude": 10980.4,
+        "direction": 43,
+        "speed_horizontal": 903.776,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "12",
+        "delay": 74,
+        "scheduled": "2026-11-10T12:50:00+00:00",
+        "estimated": "2026-11-10T12:50:00+00:00",
+        "actual": "2026-11-10T14:04:00+00:00",
+        "estimated_runway": "2026-11-10T13:41:00+00:00",
+        "actual_runway": "2026-11-10T14:04:00+00:00"
+      },
+      "arrival": {
+        "airport": "Frankfurt International Airport",
+        "timezone": "Europe/Berlin",
+        "iata": "FRA",
+        "icao": "EDDF",
+        "terminal": "1",
+        "gate": "A16",
+        "baggage": null,
+        "scheduled": "2026-11-10T15:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Canada",
+        "iata": "AC",
+        "icao": "ACA"
+      },
+      "flight": {
+        "number": "9710",
+        "iata": "AC9710",
+        "icao": "ACA9710",
+        "codeshared": {
+          "airline_name": "lufthansa",
+          "airline_iata": "lh",
+          "airline_icao": "dlh",
+          "flight_number": "1101",
+          "flight_iata": "lh1101",
+          "flight_icao": "dlh1101"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3C6498"
+      },
+      "live": {
+        "updated": "2026-11-10T13:37:49+00:00",
+        "latitude": 41.966,
+        "longitude": 3.7273,
+        "altitude": 10980.4,
+        "direction": 43,
+        "speed_horizontal": 903.776,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "14",
+        "delay": 22,
+        "scheduled": "2026-11-10T12:50:00+00:00",
+        "estimated": "2026-11-10T12:50:00+00:00",
+        "actual": "2026-11-10T13:12:00+00:00",
+        "estimated_runway": "2026-11-10T13:12:00+00:00",
+        "actual_runway": "2026-11-10T13:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Charles De Gaulle",
+        "timezone": "Europe/Paris",
+        "iata": "CDG",
+        "icao": "LFPG",
+        "terminal": "2G",
+        "gate": "N14",
+        "baggage": "2G",
+        "scheduled": "2026-11-10T15:00:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:51:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:51:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air France",
+        "iata": "A5",
+        "icao": "HOP"
+      },
+      "flight": {
+        "number": "1417",
+        "iata": "A51417",
+        "icao": "HOP1417",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "39856A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "14",
+        "delay": 22,
+        "scheduled": "2026-11-10T12:50:00+00:00",
+        "estimated": "2026-11-10T12:50:00+00:00",
+        "actual": "2026-11-10T13:12:00+00:00",
+        "estimated_runway": "2026-11-10T13:12:00+00:00",
+        "actual_runway": "2026-11-10T13:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Charles De Gaulle",
+        "timezone": "Europe/Paris",
+        "iata": "CDG",
+        "icao": "LFPG",
+        "terminal": "2G",
+        "gate": "N14",
+        "baggage": "2G",
+        "scheduled": "2026-11-10T15:00:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:51:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:51:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      },
+      "flight": {
+        "number": "9900",
+        "iata": "SK9900",
+        "icao": "SAS9900",
+        "codeshared": {
+          "airline_name": "air france",
+          "airline_iata": "a5",
+          "airline_icao": "hop",
+          "flight_number": "1417",
+          "flight_iata": "a51417",
+          "flight_icao": "hop1417"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "39856A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "14",
+        "delay": 22,
+        "scheduled": "2026-11-10T12:50:00+00:00",
+        "estimated": "2026-11-10T12:50:00+00:00",
+        "actual": "2026-11-10T13:12:00+00:00",
+        "estimated_runway": "2026-11-10T13:12:00+00:00",
+        "actual_runway": "2026-11-10T13:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Charles De Gaulle",
+        "timezone": "Europe/Paris",
+        "iata": "CDG",
+        "icao": "LFPG",
+        "terminal": "2G",
+        "gate": "N14",
+        "baggage": "2G",
+        "scheduled": "2026-11-10T15:00:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:51:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:51:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "8494",
+        "iata": "DL8494",
+        "icao": "DAL8494",
+        "codeshared": {
+          "airline_name": "air france",
+          "airline_iata": "a5",
+          "airline_icao": "hop",
+          "flight_number": "1417",
+          "flight_iata": "a51417",
+          "flight_icao": "hop1417"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "39856A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "14",
+        "delay": 22,
+        "scheduled": "2026-11-10T12:50:00+00:00",
+        "estimated": "2026-11-10T12:50:00+00:00",
+        "actual": "2026-11-10T13:12:00+00:00",
+        "estimated_runway": "2026-11-10T13:12:00+00:00",
+        "actual_runway": "2026-11-10T13:12:00+00:00"
+      },
+      "arrival": {
+        "airport": "Charles De Gaulle",
+        "timezone": "Europe/Paris",
+        "iata": "CDG",
+        "icao": "LFPG",
+        "terminal": "2G",
+        "gate": "N14",
+        "baggage": "2G",
+        "scheduled": "2026-11-10T15:00:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:51:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:51:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Aeromexico",
+        "iata": "AM",
+        "icao": "AMX"
+      },
+      "flight": {
+        "number": "6047",
+        "iata": "AM6047",
+        "icao": "AMX6047",
+        "codeshared": {
+          "airline_name": "air france",
+          "airline_iata": "a5",
+          "airline_icao": "hop",
+          "flight_number": "1417",
+          "flight_iata": "a51417",
+          "flight_icao": "hop1417"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "39856A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "8",
+        "delay": 21,
+        "scheduled": "2026-11-10T12:40:00+00:00",
+        "estimated": "2026-11-10T12:40:00+00:00",
+        "actual": "2026-11-10T13:01:00+00:00",
+        "estimated_runway": "2026-11-10T13:01:00+00:00",
+        "actual_runway": "2026-11-10T13:01:00+00:00"
+      },
+      "arrival": {
+        "airport": "Zurich",
+        "timezone": "Europe/Zurich",
+        "iata": "ZRH",
+        "icao": "LSZH",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2026-11-10T14:50:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:44:00+00:00",
+        "actual": null,
+        "estimated_runway": "2026-11-10T14:44:00+00:00",
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Helvetic Airways",
+        "iata": "LX",
+        "icao": "SWR"
+      },
+      "flight": {
+        "number": "2141",
+        "iata": "LX2141",
+        "icao": "SWR2141",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "HB-JVA",
+        "iata": "E195",
+        "icao": "E195",
+        "icao24": "4B19E6"
+      },
+      "live": {
+        "updated": "2026-11-10T13:38:06+00:00",
+        "latitude": 47.5135,
+        "longitude": 8.4929,
+        "altitude": 723.9,
+        "direction": 137,
+        "speed_horizontal": 274.096,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "20",
+        "delay": 9,
+        "scheduled": "2026-11-10T12:25:00+00:00",
+        "estimated": "2026-11-10T12:25:00+00:00",
+        "actual": "2026-11-10T12:34:00+00:00",
+        "estimated_runway": "2026-11-10T12:34:00+00:00",
+        "actual_runway": "2026-11-10T12:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N618",
+        "scheduled": "2026-11-10T13:35:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T13:15:00+00:00",
+        "actual": "2026-11-10T13:16:00+00:00",
+        "estimated_runway": "2026-11-10T13:15:00+00:00",
+        "actual_runway": "2026-11-10T13:16:00+00:00"
+      },
+      "airline": {
+        "name": "Air Europa",
+        "iata": "UX",
+        "icao": "AEA"
+      },
+      "flight": {
+        "number": "4064",
+        "iata": "UX4064",
+        "icao": "AEA4064",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "EC-OBK",
+        "iata": "B738",
+        "icao": "B738",
+        "icao24": "34750B"
+      },
+      "live": {
+        "updated": "2026-11-10T12:22:31+00:00",
+        "latitude": 40.4886,
+        "longitude": -3.5721,
+        "altitude": 0,
+        "direction": 267,
+        "speed_horizontal": 12.964,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "20",
+        "delay": 9,
+        "scheduled": "2026-11-10T12:25:00+00:00",
+        "estimated": "2026-11-10T12:25:00+00:00",
+        "actual": "2026-11-10T12:34:00+00:00",
+        "estimated_runway": "2026-11-10T12:34:00+00:00",
+        "actual_runway": "2026-11-10T12:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N618",
+        "scheduled": "2026-11-10T13:35:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T13:15:00+00:00",
+        "actual": "2026-11-10T13:16:00+00:00",
+        "estimated_runway": "2026-11-10T13:15:00+00:00",
+        "actual_runway": "2026-11-10T13:16:00+00:00"
+      },
+      "airline": {
+        "name": "China Eastern Airlines",
+        "iata": "MU",
+        "icao": "CES"
+      },
+      "flight": {
+        "number": "4977",
+        "iata": "MU4977",
+        "icao": "CES4977",
+        "codeshared": {
+          "airline_name": "air europa",
+          "airline_iata": "ux",
+          "airline_icao": "aea",
+          "flight_number": "4064",
+          "flight_iata": "ux4064",
+          "flight_icao": "aea4064"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": {
+        "updated": "2026-11-10T12:22:31+00:00",
+        "latitude": 40.4886,
+        "longitude": -3.5721,
+        "altitude": 0,
+        "direction": 267,
+        "speed_horizontal": 12.964,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "20",
+        "delay": 9,
+        "scheduled": "2026-11-10T12:25:00+00:00",
+        "estimated": "2026-11-10T12:25:00+00:00",
+        "actual": "2026-11-10T12:34:00+00:00",
+        "estimated_runway": "2026-11-10T12:34:00+00:00",
+        "actual_runway": "2026-11-10T12:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N618",
+        "scheduled": "2026-11-10T13:35:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T13:15:00+00:00",
+        "actual": "2026-11-10T13:16:00+00:00",
+        "estimated_runway": "2026-11-10T13:15:00+00:00",
+        "actual_runway": "2026-11-10T13:16:00+00:00"
+      },
+      "airline": {
+        "name": "MEA",
+        "iata": "ME",
+        "icao": "MEA"
+      },
+      "flight": {
+        "number": "4064",
+        "iata": "ME4064",
+        "icao": "MEA4064",
+        "codeshared": {
+          "airline_name": "air europa",
+          "airline_iata": "ux",
+          "airline_icao": "aea",
+          "flight_number": "4064",
+          "flight_iata": "ux4064",
+          "flight_icao": "aea4064"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": {
+        "updated": "2026-11-10T12:22:31+00:00",
+        "latitude": 40.4886,
+        "longitude": -3.5721,
+        "altitude": 0,
+        "direction": 267,
+        "speed_horizontal": 12.964,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "20",
+        "delay": 9,
+        "scheduled": "2026-11-10T12:25:00+00:00",
+        "estimated": "2026-11-10T12:25:00+00:00",
+        "actual": "2026-11-10T12:34:00+00:00",
+        "estimated_runway": "2026-11-10T12:34:00+00:00",
+        "actual_runway": "2026-11-10T12:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N618",
+        "scheduled": "2026-11-10T13:35:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T13:15:00+00:00",
+        "actual": "2026-11-10T13:16:00+00:00",
+        "estimated_runway": "2026-11-10T13:15:00+00:00",
+        "actual_runway": "2026-11-10T13:16:00+00:00"
+      },
+      "airline": {
+        "name": "AirSERBIA",
+        "iata": "JU",
+        "icao": "ASL"
+      },
+      "flight": {
+        "number": "7493",
+        "iata": "JU7493",
+        "icao": "ASL7493",
+        "codeshared": {
+          "airline_name": "air europa",
+          "airline_iata": "ux",
+          "airline_icao": "aea",
+          "flight_number": "4064",
+          "flight_iata": "ux4064",
+          "flight_icao": "aea4064"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": {
+        "updated": "2026-11-10T12:22:31+00:00",
+        "latitude": 40.4886,
+        "longitude": -3.5721,
+        "altitude": 0,
+        "direction": 267,
+        "speed_horizontal": 12.964,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "20",
+        "delay": 9,
+        "scheduled": "2026-11-10T12:25:00+00:00",
+        "estimated": "2026-11-10T12:25:00+00:00",
+        "actual": "2026-11-10T12:34:00+00:00",
+        "estimated_runway": "2026-11-10T12:34:00+00:00",
+        "actual_runway": "2026-11-10T12:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N618",
+        "scheduled": "2026-11-10T13:35:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T13:15:00+00:00",
+        "actual": "2026-11-10T13:16:00+00:00",
+        "estimated_runway": "2026-11-10T13:15:00+00:00",
+        "actual_runway": "2026-11-10T13:16:00+00:00"
+      },
+      "airline": {
+        "name": "Etihad Airways",
+        "iata": "EY",
+        "icao": "ETD"
+      },
+      "flight": {
+        "number": "7593",
+        "iata": "EY7593",
+        "icao": "ETD7593",
+        "codeshared": {
+          "airline_name": "air europa",
+          "airline_iata": "ux",
+          "airline_icao": "aea",
+          "flight_number": "4064",
+          "flight_iata": "ux4064",
+          "flight_icao": "aea4064"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": {
+        "updated": "2026-11-10T12:22:31+00:00",
+        "latitude": 40.4886,
+        "longitude": -3.5721,
+        "altitude": 0,
+        "direction": 267,
+        "speed_horizontal": 12.964,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "20",
+        "delay": 9,
+        "scheduled": "2026-11-10T12:25:00+00:00",
+        "estimated": "2026-11-10T12:25:00+00:00",
+        "actual": "2026-11-10T12:34:00+00:00",
+        "estimated_runway": "2026-11-10T12:34:00+00:00",
+        "actual_runway": "2026-11-10T12:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N618",
+        "scheduled": "2026-11-10T13:35:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T13:15:00+00:00",
+        "actual": "2026-11-10T13:16:00+00:00",
+        "estimated_runway": "2026-11-10T13:15:00+00:00",
+        "actual_runway": "2026-11-10T13:16:00+00:00"
+      },
+      "airline": {
+        "name": "Alitalia",
+        "iata": "AZ",
+        "icao": "AZA"
+      },
+      "flight": {
+        "number": "2417",
+        "iata": "AZ2417",
+        "icao": "AZA2417",
+        "codeshared": {
+          "airline_name": "air europa",
+          "airline_iata": "ux",
+          "airline_icao": "aea",
+          "flight_number": "4064",
+          "flight_iata": "ux4064",
+          "flight_icao": "aea4064"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": {
+        "updated": "2026-11-10T12:22:31+00:00",
+        "latitude": 40.4886,
+        "longitude": -3.5721,
+        "altitude": 0,
+        "direction": 267,
+        "speed_horizontal": 12.964,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "active",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "20",
+        "delay": 9,
+        "scheduled": "2026-11-10T12:25:00+00:00",
+        "estimated": "2026-11-10T12:25:00+00:00",
+        "actual": "2026-11-10T12:34:00+00:00",
+        "estimated_runway": "2026-11-10T12:34:00+00:00",
+        "actual_runway": "2026-11-10T12:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Barajas",
+        "timezone": "Europe/Madrid",
+        "iata": "MAD",
+        "icao": "LEMD",
+        "terminal": "2",
+        "gate": null,
+        "baggage": "N618",
+        "scheduled": "2026-11-10T13:35:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T13:15:00+00:00",
+        "actual": "2026-11-10T13:16:00+00:00",
+        "estimated_runway": "2026-11-10T13:15:00+00:00",
+        "actual_runway": "2026-11-10T13:16:00+00:00"
+      },
+      "airline": {
+        "name": "Aeromexico",
+        "iata": "AM",
+        "icao": "AMX"
+      },
+      "flight": {
+        "number": "6861",
+        "iata": "AM6861",
+        "icao": "AMX6861",
+        "codeshared": {
+          "airline_name": "air europa",
+          "airline_iata": "ux",
+          "airline_icao": "aea",
+          "flight_number": "4064",
+          "flight_iata": "ux4064",
+          "flight_icao": "aea4064"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "34750B"
+      },
+      "live": {
+        "updated": "2026-11-10T12:22:31+00:00",
+        "latitude": 40.4886,
+        "longitude": -3.5721,
+        "altitude": 0,
+        "direction": 267,
+        "speed_horizontal": 12.964,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "4",
+        "delay": 17,
+        "scheduled": "2026-11-10T12:15:00+00:00",
+        "estimated": "2026-11-10T12:15:00+00:00",
+        "actual": "2026-11-10T12:32:00+00:00",
+        "estimated_runway": "2026-11-10T12:32:00+00:00",
+        "actual_runway": "2026-11-10T12:32:00+00:00"
+      },
+      "arrival": {
+        "airport": "Brussels Airport",
+        "timezone": "Europe/Brussels",
+        "iata": "BRU",
+        "icao": "EBBR",
+        "terminal": null,
+        "gate": null,
+        "baggage": "4",
+        "scheduled": "2026-11-10T14:40:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:27:00+00:00",
+        "actual": "2026-11-10T14:25:00+00:00",
+        "estimated_runway": "2026-11-10T14:25:00+00:00",
+        "actual_runway": "2026-11-10T14:25:00+00:00"
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      },
+      "flight": {
+        "number": "7869",
+        "iata": "VY7869",
+        "icao": "VLG7869",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "EC-JZI",
+        "iata": "A320",
+        "icao": "A320",
+        "icao24": "3424D2"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2026-11-10",
+      "flight_status": "landed",
+      "departure": {
+        "airport": "Valencia",
+        "timezone": "Europe/Madrid",
+        "iata": "VLC",
+        "icao": "LEVC",
+        "terminal": "1",
+        "gate": "4",
+        "delay": 17,
+        "scheduled": "2026-11-10T12:15:00+00:00",
+        "estimated": "2026-11-10T12:15:00+00:00",
+        "actual": "2026-11-10T12:32:00+00:00",
+        "estimated_runway": "2026-11-10T12:32:00+00:00",
+        "actual_runway": "2026-11-10T12:32:00+00:00"
+      },
+      "arrival": {
+        "airport": "Brussels Airport",
+        "timezone": "Europe/Brussels",
+        "iata": "BRU",
+        "icao": "EBBR",
+        "terminal": null,
+        "gate": null,
+        "baggage": "4",
+        "scheduled": "2026-11-10T14:40:00+00:00",
+        "delay": 0,
+        "estimated": "2026-11-10T14:27:00+00:00",
+        "actual": "2026-11-10T14:25:00+00:00",
+        "estimated_runway": "2026-11-10T14:25:00+00:00",
+        "actual_runway": "2026-11-10T14:25:00+00:00"
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "5867",
+        "iata": "IB5867",
+        "icao": "IBE5867",
+        "codeshared": {
+          "airline_name": "vueling",
+          "airline_iata": "vy",
+          "airline_icao": "vlg",
+          "flight_number": "7869",
+          "flight_iata": "vy7869",
+          "flight_icao": "vlg7869"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "3424D2"
+      },
+      "live": null
+    }
+  ]
+}
