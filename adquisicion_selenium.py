@@ -1,4 +1,5 @@
 import re
+import time
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -10,24 +11,35 @@ from selenium.common.exceptions import TimeoutException
 
 URLS_AEROPUERTOS = {
     "VLC": "https://www.airportia.com/spain/valencia-airport/departures/",
-    "MAD": "https://www.airportia.com/spain/adolfo-suarez-madrid-barajas-airport/departures/",
-    "BCN": "https://www.airportia.com/spain/barcelona-el-prat-airport/departures/",
+    "MAD": "https://www.airportia.com/spain/madrid-barajas-international-airport/departures/",
+    "BCN": "https://www.airportia.com/spain/barcelona-international-airport/departures/",
     "LHR": "https://www.airportia.com/united-kingdom/london-heathrow-airport/departures/",
     "CDG": "https://www.airportia.com/france/charles-de-gaulle-international-airport/departures/",
-    "AMS": "https://www.airportia.com/netherlands/amsterdam-airport-schiphol/departures/",
-    "FRA": "https://www.airportia.com/germany/frankfurt-am-main-airport/departures/",
-    "FCO": "https://www.airportia.com/italy/leonardo-da-vinci-fiumicino-airport/departures/",
+    "AMS": "https://www.airportia.com/netherlands/amsterdam-schiphol-airport/departures/",
+    "FRA": "https://www.airportia.com/germany/frankfurt-am-main-international-airport/departures/",
+    "FCO": "https://www.airportia.com/italy/leonardo-da-vinci/departures/",
 }
 
 
 def iniciar_driver(headless=False):
     opciones = Options()
+    opciones.page_load_strategy = "eager"
     if headless:
         opciones.add_argument("--headless=new")
+
     opciones.add_argument("--no-sandbox")
     opciones.add_argument("--disable-dev-shm-usage")
+    opciones.add_argument("--disable-blink-features=AutomationControlled")
+    opciones.add_experimental_option("excludeSwitches", ["enable-automation"])
+    opciones.add_experimental_option("useAutomationExtension", False)
     opciones.add_argument("--window-size=1920,1080")
-    return webdriver.Chrome(options=opciones)
+
+    driver = webdriver.Chrome(options=opciones)
+    driver.execute_cdp_cmd(
+        "Page.addScriptToEvaluateOnNewDocument",
+        {"source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"}
+    )
+    return driver
 
 
 def formatear_hora(texto_hora):
@@ -63,12 +75,13 @@ def obtener_vuelos(aeropuerto, driver=None):
 
     cerrar_al_final = False
     if driver is None:
-        driver = iniciar_driver(headless=True)
+        driver = iniciar_driver(headless=False)
         cerrar_al_final = True
 
     vuelos = []
     try:
         driver.get(url)
+        time.sleep(2)
 
         # Intentar cerrar banner de cookies si aparece
         try:
@@ -82,46 +95,41 @@ def obtener_vuelos(aeropuerto, driver=None):
         except TimeoutException:
             pass
 
-        # Esperar a que carguen las filas de vuelos
-        WebDriverWait(driver, 15).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "table.flights--departures tbody tr"))
+        # Esperar a que cargue la tabla de vuelos
+        WebDriverWait(driver, 25).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "table.flights tbody tr"))
         )
 
-        filas = driver.find_elements(By.CSS_SELECTOR, "table.flights--departures tbody tr")
+        filas = driver.find_elements(By.CSS_SELECTOR, "table.flights tbody tr")
 
         for fila in filas:
             celdas = fila.find_elements(By.TAG_NAME, "td")
-            # Ignorar filas separadoras o de publicidad (no tienen td.num ni 6+ columnas)
             if len(celdas) < 6 or "num" not in (celdas[0].get_attribute("class") or ""):
                 continue
 
-            # 1. Código de vuelo (td.num -> a)
             enlaces_vuelo = celdas[0].find_elements(By.TAG_NAME, "a")
             flight_iata = enlaces_vuelo[0].text.strip() if enlaces_vuelo else None
 
-            # 2. Destino IATA (últimas 3 letras mayúsculas de la 2ª celda, ej. 'Málaga AGP' -> 'AGP')
             texto_destino = celdas[1].text.strip()
             match_iata = re.search(r"\b([A-Z]{3})\b$", texto_destino)
             arr_iata = match_iata.group(1) if match_iata else None
 
-            # 3. Horas programada (4ª celda) y real de salida (5ª celda)
             dep_time = formatear_hora(celdas[3].text)
             dep_actual = formatear_hora(celdas[4].text)
 
-            # Calcular retraso de salida en minutos si existen ambas horas
             dep_delayed = None
             if dep_time and dep_actual:
                 t_prog = datetime.strptime(dep_time, "%Y-%m-%d %H:%M")
                 t_real = datetime.strptime(dep_actual, "%Y-%m-%d %H:%M")
                 dep_delayed = int((t_real - t_prog).total_seconds() / 60)
 
-            # 4. Estado (6ª celda -> span.label)
             spans_estado = celdas[5].find_elements(By.CSS_SELECTOR, "span.label")
             texto_estado = " ".join(s.text.strip() for s in spans_estado if s.text.strip())
             status = normalizar_estado(texto_estado)
 
             vuelos.append({
                 "flight_iata": flight_iata,
+                "dep_iata": aeropuerto.upper(),
                 "cs_flight_iata": None,
                 "arr_iata": arr_iata,
                 "status": status,
@@ -134,7 +142,7 @@ def obtener_vuelos(aeropuerto, driver=None):
             })
 
     except TimeoutException:
-        print(f"[{aeropuerto}] tiempo de espera agotado al cargar la tabla")
+        print(f"[{aeropuerto}] tiempo de espera agotado | Título página: {driver.title}")
         return None
     except Exception as e:
         print(f"[{aeropuerto}] error en Selenium: {type(e).__name__} - {e}")
