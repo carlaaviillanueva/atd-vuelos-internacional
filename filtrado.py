@@ -1,6 +1,4 @@
-
 from datetime import datetime, timezone
-
 
 def filtrar_vuelos(vuelos, fecha=None):
     if not isinstance(vuelos, list):
