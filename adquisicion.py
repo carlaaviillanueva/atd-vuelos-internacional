@@ -18,7 +18,7 @@ def obtener_vuelos(aeropuerto):
     except requests.exceptions.RequestException as e:
         print(f"[{aeropuerto}] error de conexión: {type(e).__name__}")
         return None
-    if 'erorr' in datos: 
+    if 'error' in datos: 
         print(f"[{aeropuerto}] error de la API: {datos['error']})")
         return None
 
